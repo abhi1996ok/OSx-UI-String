@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WOWSHARE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"><!-- 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <section class="jumbotron" style="margin-bottom: 0; background-color: #A6D6D8; padding: 1.9rem 1.9rem 1.9rem 1.9rem; ">        
+            <nav >
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" style="color: #fff" href="#">WOWSHARE</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li style="padding-left: 10px">
+                            <select class="form-control form-inline">
+                                <option>SELECT</option>
+                                <option>SELECT 0</option>
+                                <option>SELECT 1</option>
+                                <option>SELECT 2</option>
+                                <option>SELECT 3</option>
+                                <option>SELECT 4</option>
+                            </select>     
+                        </li>
+                        <li style="padding-left: 10px">
+                            <button class="btn btn-primary" >
+                                SUBMIT
+                            </button>
+                        </li>
+                        <li style="padding-left: 10px">
+                            <img src="https://via.placeholder.com/35.png/fff/09f" class="img-circle">
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+    </section>
+    <div id="myModal" class="modal" oncontextmenu="return false">
+        <span class="closer" id="band">&times;</span>
+        <div id="imgDiv">
+            <img class="modal-content" id="img01">
+        </div>
+    </div>
+    <main>
+        <div class="" style="display: flex;">
+            <div id="division" class="leftMainDiv" style="overflow-x: auto;">
+
+            </div>
+            <div id="rightMainDiv" style="">
+                <img id="imge" class="img-thumbnail" src="gallery.jpg" alt="disp" style=" width:300px; height:300px; margin: auto; margin-top: 30%; display: block; " onclick="imgFun()" />
+            </div>
+        </div>
+    </main>
+    <section class="jumbotron" style="margin-bottom: 0">
+    
+    </section>
+</body>
+
+</html>
